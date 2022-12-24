@@ -1,0 +1,155 @@
+:root {
+  --main-color: #0b5e98;
+  --button-color: #115c90;
+  --white-color: #eae8d7;
+}
+
+body {
+  background: url("../assets/background.png");
+  height: 6000px;
+}
+
+#body-wrapper {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  width: 1140px;
+  position: fixed;
+  top: 0;
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header .search-box {
+  border-bottom: 3px solid var(--main-color);
+  width: 150px;
+  display: flex;
+}
+
+header input[type="text"].search-bar,
+header input[type="text"].search-bar:focus {
+  background-color: unset;
+  border: unset;
+  outline: none;
+  width: 120px;
+  padding: 5px 0;
+}
+
+header .search-icon {
+  width: 18px;
+  height: 19px;
+}
+
+/* group1 */
+#group1 {
+  position: relative;
+  height: 857px;
+}
+
+#group1 .sketch1 {
+  position: absolute;
+  top: 208px;
+  left: -71px;
+}
+
+#group1 .sketch2 {
+  position: absolute;
+  top: 625px;
+  left: 1101px;
+}
+
+#group1 .title {
+  position: relative;
+  width: 100%;
+  color: var(--main-color);
+  padding-top: 169px;
+  font-size: 107px;
+  text-align: center;
+  font-family: "Old Standard TT", serif;
+}
+
+#group1 .title span {
+  position: absolute;
+  font-size: 33px;
+}
+
+#group1 .title span:first-child {
+  left: 230px;
+}
+
+#group1 .title span:last-child {
+  right: 215px;
+}
+
+#group1 .heading {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  width: 100%;
+  color: var(--main-color);
+  text-align: justify;
+  font-family: "DM Sans", sans-serif;
+  margin-top: -75px;
+}
+
+#group1 .heading > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+#group1 .heading .content {
+  margin-top: 100px;
+}
+
+#group1 .heading .middle-image {
+  width: 373.74px;
+  height: 419.5px;
+}
+
+#group1 .heading .h-title {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+#group1 .heading .button {
+  width: 126px;
+  height: 33px;
+  line-height: 33px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 16px;
+  border: 2px solid var(--button-color);
+  color: var(--button-color);
+}
+
+#group1 .heading .button.colored {
+  background-color: var(--button-color);
+  border: 2px solid var(--button-color);
+  color: var(--white-color);
+}
+
+#group1 .bottom {
+  padding-top: 35px;
+  color: var(--main-color);
+  font-family: "DM Sans", sans-serif;
+}
+
+#group1 .bottom-box {
+  border-top: 2px solid var(--main-color);
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+}
